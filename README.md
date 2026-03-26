@@ -1,6 +1,7 @@
 # CSV Processing Automation
 
-Proyecto en Python para leer, transformar y consolidar múltiples archivos CSV. El objetivo es automatizar tareas repetitivas de procesamiento de datos, reducir trabajo manual y dejar trazabilidad del flujo.
+Proyecto en Python para leer, transformar y consolidar múltiples archivos CSV. 
+El objetivo es automatizar tareas repetitivas de procesamiento de datos, reducir trabajo manual y dejar seguimiento del flujo.
 
 ## Qué resuelve
 
@@ -33,8 +34,7 @@ csv-processing-automation/
     └── test_processor.py
 ```
 
-## Requisitos
-
+## Requisitos recomendados
 - Python 3.11 o superior
 
 ## Instalación
@@ -85,11 +85,3 @@ Después de ejecutar el proyecto se generan estos archivos dentro de `output/`:
 pytest
 ```
 
-## Mejoras posibles
-
-- mapeo de columnas equivalentes entre archivos
-- validación de esquemas obligatorios
-- conversión automática de tipos
-- CLI empaquetada con `argparse` o `typer`
-- configuración por archivo `.yaml` o `.json`
-- reporte de calidad de datos más detallado
